@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: truc
-              run: echo "{{$matrix.noms}} mange une {{$matrix.fruits}} et il adore ça !"
+              run: echo "${{matrix.noms}} mange une ${{matrix.fruits}} et il adore ça !"
